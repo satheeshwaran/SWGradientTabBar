@@ -13,3 +13,4 @@ Usage:
 
 Screenshot:
 
+    ![ScreenShot](https://github.com/satheeshwaran/SWGradientTabBar/SWGradientTabBar.png)
