@@ -11,5 +11,6 @@ Usage:
     
     [self.tabBar setTabBarGradientTintColors:colors verticalFlag:YES];
 
+Screenshot:
 
-[![ScreenShot](https://github.com/satheeshwaran/SWGradientTabBar/raw/master/SWGradientTabBar.png)]
+![ScreenShot](https://github.com/satheeshwaran/SWGradientTabBar/raw/master/SWGradientTabBar.png)
