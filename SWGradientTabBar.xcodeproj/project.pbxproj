@@ -10,15 +10,17 @@
 		A55CD60C18211A52002015F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CD60B18211A52002015F8 /* Foundation.framework */; };
 		A55CD60E18211A53002015F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CD60D18211A53002015F8 /* CoreGraphics.framework */; };
 		A55CD61018211A53002015F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CD60F18211A53002015F8 /* UIKit.framework */; };
-		A55CD61618211A53002015F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55CD61418211A53002015F8 /* InfoPlist.strings */; };
-		A55CD61818211A53002015F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CD61718211A53002015F8 /* main.m */; };
-		A55CD61C18211A53002015F8 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CD61B18211A53002015F8 /* SWAppDelegate.m */; };
-		A55CD61E18211A53002015F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55CD61D18211A53002015F8 /* Images.xcassets */; };
 		A55CD62518211A53002015F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CD62418211A53002015F8 /* XCTest.framework */; };
 		A55CD62618211A53002015F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CD60B18211A52002015F8 /* Foundation.framework */; };
 		A55CD62718211A53002015F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CD60F18211A53002015F8 /* UIKit.framework */; };
 		A55CD62F18211A53002015F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55CD62D18211A53002015F8 /* InfoPlist.strings */; };
 		A55CD63118211A53002015F8 /* SWGradientTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CD63018211A53002015F8 /* SWGradientTabBarTests.m */; };
+		A5D8654218212E8500FD1F77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D8653518212E8500FD1F77 /* Images.xcassets */; };
+		A5D8654318212E8500FD1F77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8653618212E8500FD1F77 /* main.m */; };
+		A5D8654418212E8500FD1F77 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8653818212E8500FD1F77 /* SWAppDelegate.m */; };
+		A5D8654618212E8500FD1F77 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8653C18212E8500FD1F77 /* SWViewController.m */; };
+		A5D8654718212E8500FD1F77 /* SWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D8653D18212E8500FD1F77 /* SWViewController.xib */; };
+		A5D8654818212E8500FD1F77 /* SWGradientTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8654018212E8500FD1F77 /* SWGradientTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +38,23 @@
 		A55CD60B18211A52002015F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A55CD60D18211A53002015F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A55CD60F18211A53002015F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A55CD61318211A53002015F8 /* SWGradientTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWGradientTabBar-Info.plist"; sourceTree = "<group>"; };
-		A55CD61518211A53002015F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A55CD61718211A53002015F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A55CD61918211A53002015F8 /* SWGradientTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWGradientTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		A55CD61A18211A53002015F8 /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
-		A55CD61B18211A53002015F8 /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
-		A55CD61D18211A53002015F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A55CD62318211A53002015F8 /* SWGradientTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWGradientTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55CD62418211A53002015F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A55CD62C18211A53002015F8 /* SWGradientTabBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWGradientTabBarTests-Info.plist"; sourceTree = "<group>"; };
 		A55CD62E18211A53002015F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A55CD63018211A53002015F8 /* SWGradientTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWGradientTabBarTests.m; sourceTree = "<group>"; };
+		A5D8653418212E8500FD1F77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5D8653518212E8500FD1F77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5D8653618212E8500FD1F77 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demo/main.m; sourceTree = "<group>"; };
+		A5D8653718212E8500FD1F77 /* SWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		A5D8653818212E8500FD1F77 /* SWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		A5D8653918212E8500FD1F77 /* SWGradientTabBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SWGradientTabBar-Info.plist"; path = "Demo/SWGradientTabBar-Info.plist"; sourceTree = "<group>"; };
+		A5D8653A18212E8500FD1F77 /* SWGradientTabBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SWGradientTabBar-Prefix.pch"; path = "Demo/SWGradientTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		A5D8653B18212E8500FD1F77 /* SWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
+		A5D8653C18212E8500FD1F77 /* SWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
+		A5D8653D18212E8500FD1F77 /* SWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWViewController.xib; sourceTree = "<group>"; };
+		A5D8653F18212E8500FD1F77 /* SWGradientTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGradientTabBar.h; sourceTree = "<group>"; };
+		A5D8654018212E8500FD1F77 /* SWGradientTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGradientTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +114,8 @@
 		A55CD61118211A53002015F8 /* SWGradientTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				A55CD61A18211A53002015F8 /* SWAppDelegate.h */,
-				A55CD61B18211A53002015F8 /* SWAppDelegate.m */,
-				A55CD61D18211A53002015F8 /* Images.xcassets */,
+				A5D8653218212E8500FD1F77 /* Demo */,
+				A5D8653E18212E8500FD1F77 /* SWGradientTabBar */,
 				A55CD61218211A53002015F8 /* Supporting Files */,
 			);
 			path = SWGradientTabBar;
@@ -118,10 +124,10 @@
 		A55CD61218211A53002015F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A55CD61318211A53002015F8 /* SWGradientTabBar-Info.plist */,
-				A55CD61418211A53002015F8 /* InfoPlist.strings */,
-				A55CD61718211A53002015F8 /* main.m */,
-				A55CD61918211A53002015F8 /* SWGradientTabBar-Prefix.pch */,
+				A5D8653318212E8500FD1F77 /* InfoPlist.strings */,
+				A5D8653618212E8500FD1F77 /* main.m */,
+				A5D8653918212E8500FD1F77 /* SWGradientTabBar-Info.plist */,
+				A5D8653A18212E8500FD1F77 /* SWGradientTabBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +148,28 @@
 				A55CD62D18211A53002015F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D8653218212E8500FD1F77 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8653518212E8500FD1F77 /* Images.xcassets */,
+				A5D8653718212E8500FD1F77 /* SWAppDelegate.h */,
+				A5D8653818212E8500FD1F77 /* SWAppDelegate.m */,
+				A5D8653B18212E8500FD1F77 /* SWViewController.h */,
+				A5D8653C18212E8500FD1F77 /* SWViewController.m */,
+				A5D8653D18212E8500FD1F77 /* SWViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A5D8653E18212E8500FD1F77 /* SWGradientTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8653F18212E8500FD1F77 /* SWGradientTabBar.h */,
+				A5D8654018212E8500FD1F77 /* SWGradientTabBar.m */,
+			);
+			path = SWGradientTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55CD61618211A53002015F8 /* InfoPlist.strings in Resources */,
-				A55CD61E18211A53002015F8 /* Images.xcassets in Resources */,
+				A5D8654218212E8500FD1F77 /* Images.xcassets in Resources */,
+				A5D8654718212E8500FD1F77 /* SWViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55CD61C18211A53002015F8 /* SWAppDelegate.m in Sources */,
-				A55CD61818211A53002015F8 /* main.m in Sources */,
+				A5D8654418212E8500FD1F77 /* SWAppDelegate.m in Sources */,
+				A5D8654618212E8500FD1F77 /* SWViewController.m in Sources */,
+				A5D8654818212E8500FD1F77 /* SWGradientTabBar.m in Sources */,
+				A5D8654318212E8500FD1F77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,20 +294,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A55CD61418211A53002015F8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A55CD61518211A53002015F8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		A55CD62D18211A53002015F8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A55CD62E18211A53002015F8 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5D8653318212E8500FD1F77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D8653418212E8500FD1F77 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,8 +394,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SWGradientTabBar/SWGradientTabBar-Prefix.pch";
-				INFOPLIST_FILE = "SWGradientTabBar/SWGradientTabBar-Info.plist";
+				GCC_PREFIX_HEADER = "SWGradientTabBar/Demo/SWGradientTabBar-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SWGradientTabBar/Demo/SWGradientTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,8 +408,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SWGradientTabBar/SWGradientTabBar-Prefix.pch";
-				INFOPLIST_FILE = "SWGradientTabBar/SWGradientTabBar-Info.plist";
+				GCC_PREFIX_HEADER = "SWGradientTabBar/Demo/SWGradientTabBar-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SWGradientTabBar/Demo/SWGradientTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +477,7 @@
 				A55CD63618211A53002015F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A55CD63718211A53002015F8 /* Build configuration list for PBXNativeTarget "SWGradientTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +486,7 @@
 				A55CD63918211A53002015F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

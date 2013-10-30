@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SWViewController">
+            <connections>
+                <outlet property="tabBar" destination="7O1-nW-aft" id="a5S-hk-WFo"/>
+                <outlet property="tabBar1" destination="aeO-o3-LjM" id="mFR-Cc-nDY"/>
+                <outlet property="tabBar2" destination="Rxu-P5-yZy" id="BRE-pz-hQ1"/>
+                <outlet property="tabBar3" destination="nmX-56-N43" id="XlT-zo-jGg"/>
+                <outlet property="tabBar4" destination="tSE-Ef-Yfa" id="lgt-dn-2ie"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7O1-nW-aft" customClass="SWGradientTabBar">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem systemItem="favorites" id="2Sw-TH-Eri"/>
+                        <tabBarItem systemItem="more" id="bUL-ay-Lg0"/>
+                    </items>
+                </tabBar>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nmX-56-N43" customClass="SWGradientTabBar">
+                    <rect key="frame" x="0.0" y="270" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem systemItem="favorites" id="rIP-NN-iAg"/>
+                        <tabBarItem systemItem="more" id="4Qs-Cf-pgK"/>
+                    </items>
+                </tabBar>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tSE-Ef-Yfa" customClass="SWGradientTabBar">
+                    <rect key="frame" x="0.0" y="396" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem systemItem="favorites" id="Zjg-E4-s4O"/>
+                        <tabBarItem systemItem="more" id="bGU-AE-4Bv"/>
+                    </items>
+                </tabBar>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rxu-P5-yZy" customClass="SWGradientTabBar">
+                    <rect key="frame" x="-1" y="162" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem systemItem="favorites" id="vfx-oM-WyG"/>
+                        <tabBarItem systemItem="more" id="HCB-yG-iYg"/>
+                    </items>
+                </tabBar>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeO-o3-LjM" customClass="SWGradientTabBar">
+                    <rect key="frame" x="0.0" y="57" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem systemItem="favorites" id="mhq-PL-MC9"/>
+                        <tabBarItem systemItem="more" id="gFk-YS-8uZ"/>
+                    </items>
+                </tabBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

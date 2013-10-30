@@ -7,6 +7,7 @@
 //
 
 #import "SWAppDelegate.h"
+#import "SWViewController.h"
 
 @implementation SWAppDelegate
 
@@ -15,6 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    SWViewController *vc = [[SWViewController alloc]initWithNibName:@"SWViewController" bundle:Nil];
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
 }
